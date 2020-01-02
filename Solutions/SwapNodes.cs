@@ -124,7 +124,7 @@ class Solution
 
     static void Main(string[] args)
     {
-        //TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
+        TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
         int n = Convert.ToInt32(Console.ReadLine());
 
@@ -147,9 +147,9 @@ class Solution
 
         int[][] result = swapNodes(indexes, queries);
 
-        Console.WriteLine(String.Join("\n", result.Select(x => String.Join(" ", x))));
+        textWriter.WriteLine(String.Join("\n", result.Select(x => String.Join(" ", x))));
 
-        //textWriter.Flush();
-        //textWriter.Close();
+        textWriter.Flush();
+        textWriter.Close();
     }
 }
