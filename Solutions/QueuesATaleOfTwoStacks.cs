@@ -1,5 +1,4 @@
 // https://www.hackerrank.com/challenges/ctci-queue-using-two-stacks/problem
-// Not efficient enough yet
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -30,39 +29,26 @@ class Solution
 
 class MyQueue
 {
-    Stack<int> first = new Stack<int>();
-    Stack<int> second = new Stack<int>();
-    bool Toggled;
-
-    Stack<int> Primary => Toggled ? second : first;
-    Stack<int> Secondary => Toggled ? first : second;
+    Stack<int> PushStack = new Stack<int>();
+    Stack<int> PopStack = new Stack<int>();
 
     public int Dequeue()
     {
-        if (!Toggled) Revert();
-        return Primary.Pop();
+        if (PopStack.Count == 0) LoadToPopStack();
+        return PopStack.Pop();
     }
 
-    public void Enqueue(int value)
-    {
-        if(Toggled) Revert();
-
-        Primary.Push(value);
-    }
+    public void Enqueue(int value) => PushStack.Push(value);
 
     public int Peek()
     {
-        if (!Toggled) Revert();
-        return Primary.Peek();
+        if (PopStack.Count == 0) LoadToPopStack();
+        return PopStack.Peek();
     }
 
-    void Revert()
+    void LoadToPopStack()
     {
-        Secondary.Clear();
-
-        while (Primary.Count > 0)
-            Secondary.Push(Primary.Pop());
-
-        Toggled = !Toggled;
+        while (PushStack.Count > 0)
+            PopStack.Push(PushStack.Pop());
     }
 }
