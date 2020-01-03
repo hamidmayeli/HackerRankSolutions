@@ -2,6 +2,8 @@
 
 These are my solutions and may not be the best solution. Feel free to suggest inprovements.
 
+Please give the repo a star if you found the content useful.
+
 ### Here is the list of C# solutions.
 
 [Solve Me First](/Solutions/SolveMeFirst.cs)
