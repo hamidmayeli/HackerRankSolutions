@@ -155,3 +155,7 @@ Please give the repo a star if you found the content useful.
 [Swap Nodes [Algo]](/Solutions/SwapNodes[Algo].cs)
 
 [Queues: A Tale of Two Stacks](/Solutions/QueuesATaleofTwoStacks.cs)
+
+[Snakes and Ladders: The Quickest Way Up](/Solutions/SnakesandLaddersTheQuickestWayUp.cs)
+
+[QHEAP1](/Solutions/QHEAP1.cs)
