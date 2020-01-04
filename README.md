@@ -159,3 +159,5 @@ Please give the repo a star if you found the content useful.
 [Snakes and Ladders: The Quickest Way Up](/Solutions/SnakesandLaddersTheQuickestWayUp.cs)
 
 [QHEAP1](/Solutions/QHEAP1.cs)
+
+[Equal](/Solutions/Equal.cs)
