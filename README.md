@@ -161,3 +161,5 @@ Please give the repo a star if you found the content useful.
 [QHEAP1](/Solutions/QHEAP1.cs)
 
 [Equal](/Solutions/Equal.cs)
+
+[The Coin Change Problem](/Solutions/TheCoinChangeProblem.cs)
