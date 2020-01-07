@@ -165,3 +165,5 @@ Please give the repo a star if you found the content useful.
 [The Coin Change Problem](/Solutions/TheCoinChangeProblem.cs)
 
 [Sherlock and Cost](/Solutions/SherlockAndCost.cs)
+
+[Construct the Array](/Solutions/ConstructTheArray.cs)
