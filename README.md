@@ -169,3 +169,5 @@ Please give the repo a star if you found the content useful.
 [Construct the Array](/Solutions/ConstructTheArray.cs)
 
 [Sam and Substrings](/Solutions/SamAndSubstrings.cs)
+
+[Forming a Magic Square](/Solutions/FormingAMagicSquare.cs)
