@@ -175,3 +175,5 @@ Please give the repo a star if you found the content useful.
 [The Time in Words](/Solutions/TheTimeInWords.cs)
 
 [TheGridSearch](/Solutions/TheGridSearch.cs)
+
+[3DSurfaceArea](/Solutions/3DSurfaceArea.cs)
