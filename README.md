@@ -179,3 +179,5 @@ Please give the repo a star if you found the content useful.
 [3DSurfaceArea](/Solutions/3DSurfaceArea.cs)
 
 [Matrix Layer Rotation](/Solutions/MatrixLayerRotation.cs)
+
+[Absolute Permutation](/Solutions/AbsolutePermutation.cs)
